@@ -1,3 +1,4 @@
+(* tail recursive method *)
 let rec mult_of_three_five start acc =
   match start with
   | 0 -> acc
